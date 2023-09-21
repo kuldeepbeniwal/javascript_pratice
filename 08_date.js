@@ -11,3 +11,9 @@ let myCreatedDate=new Date("2023-12-01")
 console.log(myCreatedDate.toLocaleString());
 let myTime=Date.now()
 console.log(myTime);
+
+let newDate = new Date()
+console.log(newDate);
+console.log(newDate.getDate());
+console.log(newDate.getDay());
+console.log(newDate.getMonth());
