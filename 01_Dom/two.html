@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body style="background-color: #212121;">
+    <div class="parent" style="color:aliceblue">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">Thursday</div>
+        <div class="day">Friday</div>
+    </div>
+</body>
+<script>
+    const parent=document.querySelector(".parent")
+    console.log(parent)
+    //console.log(parent.children)
+    //console.log(parent.children[1].innerHTML)
+    //let arr=Array.from(parent.children)
+    //console.log(arr)
+    //for (const num of arr){
+      //  console.log(num)
+    //}
+    parent.lastElementChild.style.color="yellow"
+
+    let dayOne=document.querySelector(".day")
+    console.log(dayOne)
+    console.log(dayOne.parentElement)
+    console.log(dayOne.nextElementSibling)
+    console.log(parent.childNodes)
+
+
+</script>
+
+</html>
