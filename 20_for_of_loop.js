@@ -18,7 +18,7 @@ map.set("IN", "India");
 map.set("IN", "India");
 map.set("fr", "France");
 
-console.log(map);
+// console.log(map);
 
 for (const key of map) {
   console.log(key);
